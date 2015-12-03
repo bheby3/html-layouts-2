@@ -1,0 +1,75 @@
+.container {
+  display: -webkit-flex;
+  display: flex;
+  height: 150px;
+  width: 70%;
+}
+.flex {
+  margin 10px;
+}
+.flex1 {
+  flex: 1;
+  border: 1px solid red;
+  background-color: #D2000D;
+  margin: 10px;
+}
+
+.flex2 {
+  flex: 1;
+  border: 1px solid blue;
+  background-color: #468EE5;
+  margin: 10px;
+}
+
+.flex3 {
+  flex: 1;
+  border: 1px solid grey;
+  background-color: #282828;
+  margin: 10px;
+}
+p {
+  width: 70%;
+  margin: 10px;
+}
+.mainContainer {
+  display: -webkit-flex;
+  display: flex;
+  height: 300px;
+  width: 70%;
+  margin: 10px;
+}
+.innerMain {
+  flex: 2;
+  border: 1px solid black;
+  background-color: #468EE5;
+}
+.innerSub {
+flex: 1;
+background-color: #D2000D;
+}
+.footerContainer {
+  height: 100px;
+  border: 1px solid black;
+  width: 70%;
+  margin-top: 20px;
+  margin: 10px;
+  background-color: #468EE5;
+}
+
+.footerSubMain {
+width: 25%;
+height: 100px;
+background-color: #D2000D;
+float: right;
+position: relative;
+}
+.footerSub {
+  z-index: 1;
+  width: 125px;
+  height: 100px;
+position: absolute;
+background-color: #282828;
+float:right;
+top: 0px;
+left: 25px
+}
